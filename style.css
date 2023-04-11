@@ -77,6 +77,9 @@
   border: none;
   background: none;
 }
+.botao:hover {
+  cursor: pointer;
+}
 
 .hide {
   display: none;
