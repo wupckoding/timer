@@ -19,20 +19,65 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 960px;
-  height: 100px;
+  max-width: 96rem;
+  height: 10rem;
 }
 
 .box1 {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+  margin: 9.6rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10rem;
+  letter-spacing: -5px; /* altere o valor de acordo com o espaçamento que deseja */
+
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #323238;
+}
+
+#minutos,
+#segundos {
+  margin: 0 -15px;
+}
+
+.btnimg {
+  width: 48px;
+}
+
+.box2 {
+  display: flex;
+
   margin: 96px;
 }
 
 .box2 {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  margin: 96px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.btn {
+  border: none;
+  background: #e1e1e6;
+  border-radius: 24px;
+  width: 138px;
+  height: 152px;
+}
+
+.box2 button img {
+  width: 56px;
+  height: 56px;
+}
+
+.botao {
+  border: none;
+  background: none;
+}
+
+.hide {
+  display: none;
 }
