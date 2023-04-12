@@ -84,3 +84,10 @@
 .hide {
   display: none;
 }
+.btn-active {
+  background-color: #02799d;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
